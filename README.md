@@ -1,7 +1,7 @@
 <!-- This is the markdown template for the final project of the Building AI course, 
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
-# Project Title
+# Exercise Planning Using AI Methods
 Final project for the Building AI course
 ## Summary
 This project will use data collected about how a user exercices to recommend the activities for the day that will best meet their goal. Taking into acount factrors such as sleep, fatigue, and what the user finds fun, AI methods can be used to better avoid injury and make progress while not burning out.
