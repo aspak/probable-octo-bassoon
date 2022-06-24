@@ -9,27 +9,11 @@ This project will use data collected about how a user exercices to recommend the
 Sometimes exercise is seen as a chore, and often people are not good at managing their workout schedule to maximize the efficiency of their workouts while avoiding injury. Hopefully this project can succeed in a way that no other solution thus far has -- exercise should still be fun and sometimes the raw efficiency of a workout should be set aside in order for someone to enjoy themselves. I envision this project as being a companion through a lifetime of exercise, not a tool to be used to train for a marathon and then ignored. Instead, AI could enrich the user's life by emphasizing the importance of exercise and fitting it within the existing structure of someone's life.
 
 ## How is it used?
+
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-   totPop = sum(pop)
-   totFish = sum(fishers)
-   # write your solution here
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-main()
-```
+
 ## Data sources and AI methods
-With wearable devices collecting things like heart rate and GPS posiiton, many people who run can collect very detailed data on their workout. For bikers, power meters allow for constant measurement of work output during a workout. Many other activities benefit from the same technology, including rowing, swimming, skiing, and hiking.
+With wearable devices collecting things like heart rate and GPS posiiton, many people who run can collect very detailed data on their workout. For bikers, power meters allow for constant measurement of work output during a workout. Many other activities benefit from the same technology, including rowing, swimming, skiing, and hiking. This makes it possible to perform classification of workouts by the intensity and duration, as well as other factors. Looking at the frequency of workouts and the types along with other information such as sleeping/recovery, their mood, their enjoyment of the activity can then be used to schedule the user for future workouts by predicting the most effective use of their time. Incorporating some measure of what the user likes to do will help to ensure the user is motivated to keep exercising and not see it as a chore.
 
 ## Challenges
 What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
