@@ -4,13 +4,10 @@ Copy the template, paste it to your GitHub README and edit! -->
 # Project Title
 Final project for the Building AI course
 ## Summary
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This project will use data collected about how a user exercices to recommend the activities for the day that will best meet their goal. Taking into acount factrors such as sleep, fatigue, and what the user finds fun, AI methods can be used to better avoid injury and make progress while not burning out.
 ## Background
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Sometimes exercise is seen as a chore, and often people are not good at managing their workout schedule to maximize the efficiency of their workouts while avoiding injury. Hopefully this project can succeed in a way that no other solution thus far has -- exercise should still be fun and sometimes the raw efficiency of a workout should be set aside in order for someone to enjoy themselves. I envision this project as being a companion through a lifetime of exercise, not a tool to be used to train for a marathon and then ignored. Instead, AI could enrich the user's life by emphasizing the importance of exercise and fitting it within the existing structure of someone's life.
+
 ## How is it used?
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 Images will make your README look nice!
@@ -32,15 +29,11 @@ def main():
 main()
 ```
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+With wearable devices collecting things like heart rate and GPS posiiton, many people who run can collect very detailed data on their workout. For bikers, power meters allow for constant measurement of work output during a workout. Many other activities benefit from the same technology, including rowing, swimming, skiing, and hiking.
+
 ## Challenges
 What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+This project is limited by the same things that make exercise planning difficult. It probably cannot work for someone who misses a lot of workouts or ignores the plan. 
 ## What next?
 How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 ## Acknowledgments
